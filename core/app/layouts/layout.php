@@ -366,7 +366,7 @@
         <script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
         <?php }; ?>
         <?php }else if(!isset($_SESSION["user_id"])) { ?>
-<script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
 
         <?php }?>
 
