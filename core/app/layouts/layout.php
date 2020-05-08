@@ -325,7 +325,9 @@
             <?php }
             ?>
 
-            <center><h1><b>SISTEMA HOTEL</b></h1><br><?php if($logo!=''){ ?><img width="50%" src="img/<?php echo $logo; ?>"><?php }; ?></center>
+            <center>
+                <h1><b>SISTEMA HOTEL</b></h1><br><?php if($logo!=''){ ?><img width="50%" src="img/<?php echo $logo; ?>"><?php }; ?>
+            </center>
             </div>
                 <!-- /tile header -->
                 <!-- tile body -->
@@ -366,7 +368,7 @@
         <script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
         <?php }; ?>
         <?php }else if(!isset($_SESSION["user_id"])) { ?>
-<script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
 
         <?php }?>
 
