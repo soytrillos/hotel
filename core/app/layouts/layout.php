@@ -325,7 +325,9 @@
             <?php }
             ?>
 
-            <center><h1><b>SISTEMA HOTEL</b></h1><br><?php if($logo!=''){ ?><img width="50%" src="img/<?php echo $logo; ?>"><?php }; ?></center>
+            <center>
+                <h1><b>SISTEMA HOTEL</b></h1><br><?php if($logo!=''){ ?><img width="50%" src="img/<?php echo $logo; ?>"><?php }; ?>
+            </center>
             </div>
                 <!-- /tile header -->
                 <!-- tile body -->
